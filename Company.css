@@ -1,0 +1,34 @@
+.Companys {
+  width: 55rem;
+  margin: 50px auto 0;
+  text-align: center;
+}
+.Companys p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Merriweather Sans", sans-serif;
+  padding-bottom: 20px;
+  letter-spacing: 3px;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.Companys img {
+  width: 75%;
+}
+
+@media screen and (max-width: 1280px) {
+  .Companys {
+    width: 90%;
+  }
+  .Companys img {
+    width: 200px;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Companys img {
+    width: 80%;
+  }
+}

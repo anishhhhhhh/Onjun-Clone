@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  width: 75rem;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.aboveCards {
+  width: 40rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.aboveCards h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+}
+.aboveCards p {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: rgb(163, 163, 163);
+}
+
+.selectType {
+  display: none;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.selectType p {
+  cursor: pointer;
+  color: grey;
+}
+.active {
+  color: black;
+  border-bottom: 2px solid blue;
+}
+/* start cards */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 75rem;
+  margin: 0 auto 100px;
+}
+
+.cards .card:nth-child(1) {
+  background-color: rgb(238, 253, 226);
+}
+
+.cards .card:nth-child(1) .signup .hrUp {
+  border-radius: 8px;
+  margin: 0;
+  height: 10px;
+  width: 90%;
+  background-color: #00a86b;
+}
+
+.cards .card:nth-child(1) .head h1 {
+  color: rgb(70, 67, 238);
+}
+.cards .card:nth-child(1) .villian button {
+  background-color: #4643ee;
+  cursor: pointer;
+}
+
+.cards .card:nth-child(1) .head .cashBack span {
+  background-color: rgb(0, 168, 107);
+}
+
+.cards .card:nth-child(1) .tick {
+  color: rgb(0, 168, 107);
+}
+
+.cards .card:nth-child(1) .spider {
+  background-color: rgb(194, 246, 227);
+}
+
+.cards .card:nth-child(1) .spider .offer {
+  color: #118e60;
+}
+
+.cards .card:nth-child(1) .spider .offerdetails p {
+  color: black;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.cards .card:nth-child(1) .spider .offerdetails::after {
+  content: "$60 Savings";
+  font-weight: 700;
+}
+
+.cards .card:nth-child(2) .spider .offerdetails p {
+  text-decoration: line-through;
+}
+.cards .card:nth-child(3) .includes p {
+  padding-bottom: 18px;
+}
+
+/* end cards */
+@media screen and (max-width: 1280px) {
+  .header {
+    width: 90%;
+    padding-top: 90px;
+  }
+  .cards {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1022px) {
+  .cards {
+    justify-content: center;
+  }
+  .selectType {
+    display: flex;
+  }
+}
+@media screen and (max-width: 770px) {
+  .header {
+    padding-top: 70px;
+  }
+  .aboveCards h1 {
+    font-size: 25px;
+  }
+  .aboveCards p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .aboveCards {
+    width: 80%;
+  }
+  .row {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    width: 95%;
+  }
+}

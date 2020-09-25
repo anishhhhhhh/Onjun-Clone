@@ -1,0 +1,200 @@
+.card {
+  width: 375px;
+  background-color: rgb(247, 247, 251);
+  border-radius: 8px;
+  border: 1px solid rgb(240, 240, 240);
+  box-shadow: 10px 0 8px #ececec;
+  display: none;
+}
+
+.display {
+  display: inherit;
+}
+
+.card1 {
+  background-color: rgb(238, 253, 226);
+}
+.card img {
+  width: 280px;
+  object-fit: contain;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cashBack {
+  text-align: center;
+}
+
+/* start head */
+.head {
+  padding-top: 150px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.head p {
+  letter-spacing: 4px;
+  color: rgb(108, 108, 109);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.head h1 {
+  font-weight: 900;
+  position: relative;
+  width: 150px;
+  margin: 0 auto;
+  font-size: 50px;
+}
+.head span {
+  color: rgb(155, 155, 155);
+  font-size: 25px;
+  position: absolute;
+  top: 7px;
+  right: -7px;
+  font-family: "Roboto", sans-serif;
+}
+
+.cashBack {
+  width: 50%;
+  margin: 0 auto 25px;
+  margin-top: 25px;
+}
+.cashBack p {
+  letter-spacing: inherit;
+  font-weight: 200;
+  font-size: 18px;
+}
+.cashBack .per {
+  font-family: "Roboto", sans-serif;
+  position: inherit;
+  color: white;
+  background-color: rgb(178, 178, 178);
+  border-radius: 5px;
+  padding: 2px 8px;
+  font-size: 19px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+/* end head */
+
+/* start signup */
+.villian {
+  background-color: #ffffff;
+}
+.villian button {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 5px;
+  color: white;
+  background-color: #b2b2b2;
+}
+.signup {
+  width: 85%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+.signup .hrDown {
+  /* border-top: 9px solid rgb(230, 230, 230); */
+  height: 10px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 8px;
+  margin: 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+.signup p {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(121, 126, 141);
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.signup span {
+  font-size: 14px;
+  font-weight: 100;
+}
+.signup .spots .takenSpot {
+  color: #00a86b;
+  font-size: 20px;
+  font-weight: bold;
+}
+.spots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spots p {
+  margin: 0;
+}
+.signup button {
+  font-size: 20px;
+  font-weight: bolder;
+  pointer-events: none;
+}
+/* end signup */
+
+/* start includes  */
+.includes {
+  width: 85%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+.includes .title {
+  color: rgb(197, 197, 197);
+  font-size: 18px;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+.includes ul {
+  list-style: none;
+  font-weight: 500;
+}
+.includes ul li {
+  padding-bottom: 10px;
+}
+
+.tick {
+  color: #c0c0c0;
+  margin-right: 10px;
+}
+.includes p {
+  font-size: 14px;
+  color: rgb(146, 146, 146);
+}
+/* end includes  */
+
+/* start offer */
+.spider {
+  background-color: #f7f7fb;
+}
+.offer {
+  display: flex;
+  color: #a5a5a5;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.offerdetails {
+  margin-left: 10px;
+  padding-bottom: 30px;
+}
+.offerdetails p {
+  margin: 0;
+}
+.offerdetails h5 {
+  margin: 0;
+}
+
+@media screen and (min-width: 1025px) {
+  .card {
+    display: inherit;
+  }
+}
+/* end offer */

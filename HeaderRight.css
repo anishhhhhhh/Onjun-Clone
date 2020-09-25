@@ -1,0 +1,30 @@
+.HeaderRight {
+  width: 100%;
+  padding-left: 100px;
+}
+.HeaderRight img {
+  width: 500px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1280px) {
+  .HeaderRight img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .HeaderRight {
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .HeaderRight {
+    padding: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .HeaderRight {
+    width: 100%;
+    text-align: center;
+  }
+}

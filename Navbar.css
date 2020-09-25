@@ -1,0 +1,151 @@
+.Navbar {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+  height: 100px;
+  transition: all 0.5s;
+}
+.shadow {
+  box-shadow: 10px 10px 8px #cacaca;
+}
+.display {
+  display: initial;
+  flex-direction: column;
+}
+.hamburger {
+  width: 20px;
+  cursor: pointer;
+  display: none;
+  margin-right: 20px;
+}
+.hamburger hr {
+  margin: 0;
+  padding-top: 5px;
+  border-top: 2px solid grey;
+}
+.navbar {
+  width: 75rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.navbar_links {
+  display: flex;
+  align-items: center;
+}
+.navbar_links select {
+  border: none;
+  cursor: pointer;
+}
+
+.navbar_links img {
+  height: 90px;
+  object-fit: contain;
+}
+
+.navbar_links p {
+  cursor: pointer;
+  margin: 0;
+  padding-left: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Merriweather Sans", sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+.navbar_links p:first-of-type {
+  color: rgb(252, 150, 255);
+}
+.navbar_buttons {
+  display: flex;
+  font-weight: 500;
+  font-size: 19px;
+  font-family: "Merriweather Sans", sans-serif;
+  width: 20%;
+}
+.navbar_buttons button:last-of-type {
+  margin: 0;
+  margin-left: 30px;
+}
+
+/* for mobile devices */
+.mobile {
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 10px 8px #cacaca;
+  display: none;
+  height: auto;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  transition: all 0.5s;
+}
+.navbar_linksM {
+  text-align: left;
+}
+.navbar_linksM select {
+  border: none;
+  cursor: pointer;
+}
+
+.navbar_linksM p {
+  cursor: pointer;
+  margin: 0;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Merriweather Sans", sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+.navbar_linksM p:first-of-type {
+  color: rgb(252, 150, 255);
+}
+.navbar_buttonsM {
+  padding-bottom: 20px;
+  width: 60%;
+  transition: all 1s;
+}
+
+/* for mobile devices */
+
+@media screen and (max-width: 1280px) {
+  .Navbar {
+    height: 70px;
+  }
+  .navbar_links p {
+    display: none;
+  }
+  .navbar_links img {
+    height: 70px;
+    padding-left: 20px;
+  }
+
+  .navbar_buttons {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .hamburger {
+    display: initial;
+  }
+}
+@media screen and (max-width: 415px) {
+  .navbar_buttonsM {
+    width: 100%;
+  }
+  .navbar_linksM p {
+    padding-bottom: 30px;
+  }
+
+  .mobile {
+    padding-bottom: 1000px;
+  }
+}

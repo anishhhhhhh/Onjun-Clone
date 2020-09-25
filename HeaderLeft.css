@@ -1,0 +1,132 @@
+.HeaderLeft {
+  margin-top: 70px;
+}
+/* start title */
+.title {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+}
+
+.titleP {
+  width: 100%;
+}
+
+.titleP p {
+  font-size: 27px;
+  font-weight: 300;
+  color: rgb(110, 110, 110);
+}
+/* end title */
+
+/* start hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 15px;
+  padding: 15px;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.email {
+  display: flex;
+  width: 50%;
+}
+
+.email input {
+  border: none;
+  margin-left: 10px;
+  outline: none;
+}
+
+.mailIcon {
+  color: rgb(1, 1, 175);
+  font-size: 50px;
+}
+
+.joinBtn button {
+  padding: 10px 30px;
+  width: 100%;
+}
+/* end hero */
+
+/* start flag */
+.flag {
+  display: flex;
+  align-items: center;
+}
+.flagImg img {
+  width: 30px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+.flag p {
+  margin: 0;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  color: gray;
+  padding-left: 20px;
+}
+/* end flag */
+
+/* start pay */
+.pay {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.google img {
+  width: 150px;
+  object-fit: contain;
+}
+.apple img {
+  width: 130px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+/* end pay */
+
+@media screen and (max-width: 1280px) {
+  .HeaderLeft {
+    margin-top: 0;
+  }
+  .title h1 {
+    font-size: 43px;
+  }
+  .titleP p {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 910px) {
+  .joinBtn button {
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .HeaderLeft {
+    text-align: center;
+  }
+  .flag {
+    justify-content: center;
+  }
+  .pay {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .title h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .titleP p {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 375px) {
+}
